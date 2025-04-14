@@ -37,3 +37,29 @@
 
 */
 
+/*
+PSEUDOCODE
+function helperFunction 
+declare array of strings inputString
+
+loop and revers using helper function
+for each word, print reverse of input string
+for palindromes, print `${inputString}' is a palindrome!`
+else, print `${inputString} is not a palindrome`
+
+note from recursive:
+ if (string.length >= 1) {
+        return string[string.length - 1] + reverseString(string.slice(0, -1));
+        // [string.length - 1] for the last character of the string
+        // (string.slice(0, -1)) --> .slice(start, end) ; negative counts from the end (-1 is the last character)
+    }
+    return string;
+*/
+
+let helperReverse = function (str) {
+    return str.split("").reverse().join("");
+}
+
+function palindromeString(helperReverse()) {
+
+}
