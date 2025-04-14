@@ -47,13 +47,6 @@ for each word, print reverse of input string
 for palindromes, print `${inputString}' is a palindrome!`
 else, print `${inputString} is not a palindrome`
 
-note from recursive:
- if (string.length >= 1) {
-        return string[string.length - 1] + reverseString(string.slice(0, -1));
-        // [string.length - 1] for the last character of the string
-        // (string.slice(0, -1)) --> .slice(start, end) ; negative counts from the end (-1 is the last character)
-    }
-    return string;
 */
 
 let helperReverse = function (str) {
