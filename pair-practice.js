@@ -46,7 +46,6 @@ loop and revers using helper function
 for each word, print reverse of input string
 for palindromes, print `${inputString}' is a palindrome!`
 else, print `${inputString} is not a palindrome`
-
 */
 
 let helperReverse = function (str) {
@@ -66,5 +65,3 @@ palindromeString("tacocat");
 palindromeString("banana");
 palindromeString("radar");
 palindromeString("moon");
-
-// console.log(palindromeString("tacocat"));
