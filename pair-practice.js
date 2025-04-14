@@ -60,6 +60,18 @@ let helperReverse = function (str) {
     return str.split("").reverse().join("");
 }
 
-function palindromeString(helperReverse()) {
-
+let palindromeString = function (str) {
+    if (str === helperReverse(str)) {
+        console.log(`The word ${str} is a palindrome!`);
+    } else {
+        console.log(`The word ${str} is not a palindrome!`);
+    }
+    return (str);
 }
+
+palindromeString("tacocat");
+palindromeString("banana");
+palindromeString("radar");
+palindromeString("moon");
+
+// console.log(palindromeString("tacocat"));
